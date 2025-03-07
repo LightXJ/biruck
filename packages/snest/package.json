@@ -1,0 +1,28 @@
+{
+  "name": "@biruck/snest",
+  "version": "0.0.1-beta.1",
+  "description": "A DI framework besed on Koa",
+  "author": "LightXJ",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "private": false,
+  "scripts": {
+    "dev": "tsnd ./test/index.ts",
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "publish": "yarn run build && npm publish"
+  },
+  "dependencies": {
+    "@types/koa": "^2.11.4",
+    "@types/koa-router": "^7.4.1",
+    "@types/node": "^14.11.2",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "rimraf": "^3.0.2"
+  }
+}

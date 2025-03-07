@@ -1,0 +1,22 @@
+{
+  "name": "create-biruck-app",
+  "version": "0.0.1-beta.1",
+  "author": "LightXJ",
+  "license": "ISC",
+  "main": "./bin/index.js",
+  "scripts": {
+    "dev": "cross-env tsc -w -p ./tsconfig.json",
+    "build": "cross-env tsc -p ./tsconfig.json --inlineSourceMap false"
+  },
+  "bin": {
+    "init": "./bin/index.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.8",
+    "@types/shelljs": "^0.8.11"
+  }
+}

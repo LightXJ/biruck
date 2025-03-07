@@ -1,0 +1,9 @@
+{
+  "name": "biruck",
+  "version": "0.0.1",
+  "description": "biruck",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
