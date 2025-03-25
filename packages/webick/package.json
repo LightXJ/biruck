@@ -1,6 +1,6 @@
 {
   "name": "@biruck/webick",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1",
   "description": "a react web frame",
   "author": "LightXJ",
   "license": "ISC",
@@ -8,7 +8,7 @@
   "module": "./esm/src/index.js",
   "bin": {
     "biruck": "./cjs/src/cli.js"
-  },
+},
   "private": false,
   "scripts": {
     "build": "concurrently \"tsc -p ./tsconfig.cjs.json --inlineSourceMap false\" \" tsc -p ./tsconfig.esm.json --inlineSourceMap false\"",

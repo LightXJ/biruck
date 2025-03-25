@@ -1,6 +1,6 @@
 {
   "name": "@biruck/snest",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1",
   "description": "A DI framework besed on Koa",
   "author": "LightXJ",
   "license": "ISC",
@@ -10,8 +10,7 @@
   "private": false,
   "scripts": {
     "dev": "tsnd ./test/index.ts",
-    "build": "rimraf dist && tsc -p tsconfig.json",
-    "publish": "yarn run build && npm publish"
+    "build": "rimraf dist && tsc -p tsconfig.json"
   },
   "dependencies": {
     "@types/koa": "^2.11.4",

@@ -1,4 +1,4 @@
-# `snest`
+# `@biruck/snest`
 
 # description
 基于 koa 实现的具有 利用装饰器路由、做为Ioc容器能力 的node框架
@@ -7,7 +7,7 @@
 ## Install
 
 ```
- $ yarn add snest
+ $ yarn add @biruck/snest
 ```
 
 ## Usage

@@ -1,4 +1,4 @@
-# `Webick`
+# `@biruck/webick`
 
 ## 介绍
 <br/>
